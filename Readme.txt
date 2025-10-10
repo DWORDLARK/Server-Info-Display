@@ -40,6 +40,10 @@ Expands GUI Form on the right side to display additional info:
 
 	***most common error value: 10054 (offline server / closed port)
 
+	[Export players list]	Saves players list as file.
+
+	[Export full list]		Saves Hidden and Dangerous 2 Full list as file.
+
 
 --------------------------------------------------------------------------------------------------------------
 Custom list:
@@ -141,3 +145,4 @@ array of byte = (254,253,0,67,79,82,89,255,255,255);
 --------------------------------------------------------------------------------------------------------------
 
 --------------------------------------------------------------------------------------------------------------
+
