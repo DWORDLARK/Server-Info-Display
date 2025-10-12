@@ -101,8 +101,21 @@ Refresh_List_6_on_start=0
 
 ReadGameMPMasterServerList=1	(0/1) Read Hidden and Dangerous 2 MP list
 ReadGameMPFavoritesList=1		(0/1) Read Hidden and Dangerous 2 Favorites list
-
 ***valid HD2dir must be set !
+
+
+Filters_List_1=			Filter out gamestyle(s).
+Filters_List_2=
+Filters_List_3=
+Filters_List_4=
+Filters_List_5=
+Filters_List_6=
+
+*If only Cooperative should be shown in list, add keywords: Deathmatch, Objectives, Occupation
+*Order and case are not critical.
+
+Filter keywords:
+Cooperative, Deathmatch, Objectives, Occupation
 
 
 [GAME]
@@ -145,5 +158,6 @@ array of byte = (254,253,0,67,79,82,89,255,255,255);
 --------------------------------------------------------------------------------------------------------------
 
 --------------------------------------------------------------------------------------------------------------
+
 
 
