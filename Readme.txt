@@ -111,8 +111,11 @@ Filters_List_4=
 Filters_List_5=
 Filters_List_6=
 
-*If only Cooperative should be shown in list, add keywords: Deathmatch, Objectives, Occupation
-*Order and case are not critical.
+*If only Cooperative should be shown in list #1: 
+
+Filters_List_1= Deathmatch, Objectives, Occupation
+
+*Order or case is not critical.
 
 Filter keywords:
 Cooperative, Deathmatch, Objectives, Occupation
@@ -171,3 +174,4 @@ Idea and code: LARK_1
 --------------------------------------------------------------------------------------------------------------
 Application created with: Embarcadero RAD Studio XE4
 --------------------------------------------------------------------------------------------------------------
+
