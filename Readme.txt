@@ -66,7 +66,7 @@ List of IP and PORT in format: IP:PORT
 [Application]
 ActivePage=1		Selected page (server list page) to start with (saved on exit)
 SaveErrorLog=0		Set value: 1 to enable error logs (_LogFile.txt)
-
+Style=Windows		Visual style (Theme) selected from style list.
 
 [UDP]
 LocalHost=127.0.0.1	Not used in Updated version
@@ -155,11 +155,12 @@ v1.7.4.0 (12.oct.2025)
 
 + Gamestyle filter option
 --------------------------------------------------------------------------------------------------------------
+v1.7.5.0 (14.oct.2025)
 
++ Visual style (Theme) selection.	(default style: "Windows")
+	*** Themes are not perfect. Some of them create placement shifts for GUI objects.
 
-
-
-
+--------------------------------------------------------------------------------------------------------------
 
 
 
@@ -174,4 +175,5 @@ Idea and code: LARK_1
 --------------------------------------------------------------------------------------------------------------
 Application created with: Embarcadero RAD Studio XE4
 --------------------------------------------------------------------------------------------------------------
+
 
