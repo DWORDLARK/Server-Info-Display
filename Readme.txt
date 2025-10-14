@@ -158,7 +158,7 @@ v1.7.4.0 (12.oct.2025)
 v1.7.5.0 (14.oct.2025)
 
 + Visual style (Theme) selection.	(default style: "Windows")
-	*** Themes are not perfect. Some of them create placement shifts for GUI objects.
+	*** Themes are not perfect. Some of them create placement shifts of GUI objects.
 
 --------------------------------------------------------------------------------------------------------------
 
@@ -175,5 +175,6 @@ Idea and code: LARK_1
 --------------------------------------------------------------------------------------------------------------
 Application created with: Embarcadero RAD Studio XE4
 --------------------------------------------------------------------------------------------------------------
+
 
 
