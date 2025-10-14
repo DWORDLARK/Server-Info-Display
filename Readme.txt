@@ -16,7 +16,7 @@ List page selection:
 [Join Server]:
 Connect to selected server.
 *It requires setting Hidden and Dangerous 2 install location in Settings.ini (HD2dir)
-
+*Double-click on selected server also ables to connect.
 
 [Refresh Selected List]
 Manual info update for selected server list.
@@ -147,6 +147,7 @@ v1.0 (2018)
  +IP:PORT format error check (custom list files)
 
 --------------------------------------------------------------------------------------------------------------
+ +Double-click to Join server
  +Buttons: Export players list and Export Full list
 
 
@@ -175,6 +176,7 @@ Idea and code: LARK_1
 --------------------------------------------------------------------------------------------------------------
 Application created with: Embarcadero RAD Studio XE4
 --------------------------------------------------------------------------------------------------------------
+
 
 
 
