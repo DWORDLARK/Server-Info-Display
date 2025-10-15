@@ -162,7 +162,7 @@ v1.7.5.0 (14.oct.2025)
 	*** Themes are not perfect. Some of them create placement shifts of GUI objects.
 
 --------------------------------------------------------------------------------------------------------------
-
+fixed players list not clearing player info if no player in Refresh mode
 
 
 
@@ -176,6 +176,7 @@ Idea and code: LARK_1
 --------------------------------------------------------------------------------------------------------------
 Application created with: Embarcadero RAD Studio XE4
 --------------------------------------------------------------------------------------------------------------
+
 
 
 
