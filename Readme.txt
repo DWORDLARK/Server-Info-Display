@@ -88,7 +88,9 @@ url=				URL for Masterserver List    (use full address with https://)
 Request_PORT=0		Set 0 if masterlist uses main connection port+3
 					Set 3 if masterlist uses main connection port
 
-
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+*** set url line as:
+url=https://jarnokai.net/HD2.php
 
 
 [ServerList]
@@ -213,6 +215,7 @@ Idea and code: LARK_1
 --------------------------------------------------------------------------------------------------------------
 Application created with: Embarcadero RAD Studio XE4
 --------------------------------------------------------------------------------------------------------------
+
 
 
 
