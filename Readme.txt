@@ -12,19 +12,25 @@ List page selection:
 5: Custom list 3
 
 
-
 [Join Server]:
-Connect to selected server.
-*It requires setting Hidden and Dangerous 2 install location in Settings.ini (HD2dir)
-*Double-click on selected server also ables to connect.
-
-[Refresh Selected List]
-Manual info update for selected server list.
+	Connect to selected server.
+	*It requires setting Hidden and Dangerous 2 install location in Settings.ini (HD2dir)
+	*Double-click on selected server also ables to connect.
 
 
-[Refresh] Checkbox
-Automatic (Players)info update for selected server.
-*Refresh is switched off if different server is selected.
+[Update Selected List]
+	Manual info update for selected server list.
+
+
+Checkbox [Update server info]
+	Automatic (Players)info update for selected server.
+	*Refresh is switched off if different server is selected.
+   		interval in 20sec
+
+
+Checkbox [Update masterlist]
+	Automatic masterlist update.
+   		interval in 60sec
 
 
 [<>]
@@ -42,7 +48,7 @@ Expands GUI Form on the right side to display additional info:
 
 	[Export players list]	Saves players list as file.
 
-	[Export full list]		Saves Hidden and Dangerous 2 Full list as file.
+	Style Selection
 
 
 --------------------------------------------------------------------------------------------------------------
@@ -76,13 +82,16 @@ LocalPort=9000		Not used in Updated version
 [OpenSpy]		Section for OpenSpy related values.
 
 
-[HTTP]			Section for HTTPS related values.
+[HTTP]			Section for HTTPS related settings.
+
+url=				URL for Masterserver List    (use full address with https://)
+Request_PORT=0		Set 0 if masterlist uses main connection port+3
+					Set 3 if masterlist uses main connection port
 
 
 
 
 [ServerList]
-
 Server_List_1_Name=server1	Set server names (max 32 characters).
 Server_List_2_Name=HD2	
 Server_List_3_Name=HD2
@@ -115,7 +124,7 @@ Filters_List_6=
 
 Filters_List_1= Deathmatch, Objectives, Occupation
 
-*Order or case is not critical.
+*Order and case are not critical.
 
 Filter keywords:
 Cooperative, Deathmatch, Objectives, Occupation
@@ -126,6 +135,14 @@ HD2dir=D:\Hidden and Dangerous 2		optional Hidden and Dangerous 2 install locati
 
 --------------------------------------------------------------------------------------------------------------
 
+OpenSSL files:
+
+libeay32.dll
+ssleay32.dll
+
+*files are needed for connection to masterlist url.
+
+--------------------------------------------------------------------------------------------------------------
 
 UDP Request data format:
 array of byte = (254,253,0,70,85,67,75,9,0,1,3,5,6,8,10,19,51,255,0,0);
@@ -136,33 +153,53 @@ Format used by Hidden and Dangerous 2 to update servers info in MP servers list:
 array of byte = (254,253,0,67,79,82,89,255,255,255);
 
 
-v1.0 (2018)
 
 --------------------------------------------------------------------------------------------------------------
- v1.7xx
+--------------------------------------------------------------------------------------------------------------
+v1.0 (2018)
+ Qtracker masterlist + custom list.
+--------------------------------------------------------------------------------------------------------------
 
+
+--------------------------------------------------------------------------------------------------------------
+ v1.7xx (oct.2025)
+--------------------------------------------------------------------------------------------------------------
  -Qtracker masterlist part removed
  +UDP connection component replaced
  +different info request data format
  +IP:PORT format error check (custom list files)
-
---------------------------------------------------------------------------------------------------------------
  +Double-click to Join server
- +Buttons: Export players list and Export Full list
+ +Export players list.
 
 
 --------------------------------------------------------------------------------------------------------------
 v1.7.4.0 (12.oct.2025)
-
+--------------------------------------------------------------------------------------------------------------
 + Gamestyle filter option
+
+
 --------------------------------------------------------------------------------------------------------------
 v1.7.5.0 (14.oct.2025)
 
 + Visual style (Theme) selection.	(default style: "Windows")
 	*** Themes are not perfect. Some of them create placement shifts of GUI objects.
 
+fixed players list not clearing player info if no player (automatic Refresh mode)
+
+
 --------------------------------------------------------------------------------------------------------------
-fixed players list not clearing player info if no player in Refresh mode
+v1.7.6 (18.oct.2025)
+--------------------------------------------------------------------------------------------------------------
++option to read masterlist
+
+
+--------------------------------------------------------------------------------------------------------------
+
+
+
+
+
+
 
 
 
@@ -176,6 +213,7 @@ Idea and code: LARK_1
 --------------------------------------------------------------------------------------------------------------
 Application created with: Embarcadero RAD Studio XE4
 --------------------------------------------------------------------------------------------------------------
+
 
 
 
