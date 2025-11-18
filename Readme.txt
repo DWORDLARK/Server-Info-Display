@@ -200,9 +200,9 @@ v1.7.6 (18.oct.2025)
 v1.7.7 (29.oct.2025/18.Now.2025)
 --------------------------------------------------------------------------------------------------------------
 +Fixed Join server not working for Masterlist
-Join must be disabled if not found HD2_SabreSquadron.exe
-+display players count for list
-socket error in one line if Logfile
+Join must be disabled if HD2_SabreSquadron.exe not found 
++Players count (Players column)
+socket error in one line (Logfile)
 
 --------------------------------------------------------------------------------------------------------------
 
@@ -232,6 +232,7 @@ Idea and code: LARK_1
 --------------------------------------------------------------------------------------------------------------
 Application created with: Embarcadero RAD Studio XE4
 --------------------------------------------------------------------------------------------------------------
+
 
 
 
