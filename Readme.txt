@@ -5,6 +5,7 @@
 
 List page selection:
 
+0: MasterList
 1: Hidden and Dangerous 2  Full list
 2: Hidden and Dangerous 2 Favorites list
 3: Custom list 1	
@@ -52,14 +53,14 @@ Expands GUI Form on the right side to display additional info:
 
 
 --------------------------------------------------------------------------------------------------------------
-Custom list:
-Files:
+Custom list Files:
+
 Server_List_1.txt
 Server_List_2.txt
 Server_List_3.txt
 
-List of IP and PORT in format: IP:PORT
-
+List of IP and PORT in format: 
+IP:PORT
 192.168.1.143:11001
 192.168.1.143:11005
 
@@ -87,6 +88,7 @@ LocalPort=9000		Not used in Updated version
 url=				URL for Masterserver List    (use full address with https://)
 Request_PORT=0		Set 0 if masterlist uses main connection port+3
 					Set 3 if masterlist uses main connection port
+ReadMasterList=0	Set 1 to read MasterList
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 *** set url line:
@@ -196,7 +198,6 @@ v1.7.6 (18.oct.2025)
 
 
 --------------------------------------------------------------------------------------------------------------
-
 v1.7.7 (29.oct.2025/18.Now.2025)
 --------------------------------------------------------------------------------------------------------------
 +Fixed Join server not working for Masterlist
@@ -204,10 +205,15 @@ Join must be disabled if HD2_SabreSquadron.exe not found
 +Players count (Players column)
 socket error in one line (Logfile)
 
+
 --------------------------------------------------------------------------------------------------------------
+v1.7.9 (27.dec.2025)
+--------------------------------------------------------------------------------------------------------------
++Players List export text format changed
++Double-click on Players List opens large Players list.
++ReadMasterList=0/1   (Settings.ini)
 
-
-
+--------------------------------------------------------------------------------------------------------------
 
 
 
@@ -232,6 +238,7 @@ Idea and code: LARK_1
 --------------------------------------------------------------------------------------------------------------
 Application created with: Embarcadero RAD Studio XE4
 --------------------------------------------------------------------------------------------------------------
+
 
 
 
